@@ -22,6 +22,7 @@ void bubbleSort(int arr[], int n)
         }
     }
 }
+
 int main()
 {
     int arr[] = {64, 34, 5, 12, 22, 11, 90};

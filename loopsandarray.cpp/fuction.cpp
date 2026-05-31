@@ -13,6 +13,7 @@ int max(int x, int y)
         return y;
     }
 }
+
 int main()
 {
     int a = 10, b = 20;
