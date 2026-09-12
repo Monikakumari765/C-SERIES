@@ -9,10 +9,18 @@ int main()
     vec.push_back(3);
     vec.push_back(4);
     vec.push_back(5);
+    vec.emplace_back(6);  // similar to push back 
+    vec.pop_back();
 
-    for( int  val : vec){
-        cout << val << " ";
-    }
+    cout <<  " value at index 2 is " << vec[2] << endl;
+
+    cout << "front" << vec.front() << endl;
+     cout << "back" << vec.back() << endl;
+
+
+    // for( int  val : vec){
+    //     cout << val << " ";
+    // }
     cout << endl;
 
 
