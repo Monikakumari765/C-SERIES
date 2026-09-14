@@ -13,7 +13,7 @@ int main(){
 
 vector<int> vec { 3,4 ,8 ,5 ,9};
 
-sort(vec.begin() , vec.end());
+sort(vec.begin() , vec.end(), greater<int>()); // for decending order 
 
 for(int val:vec){
     cout<< val << " ";
